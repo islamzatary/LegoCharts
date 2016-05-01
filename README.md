@@ -1,7 +1,7 @@
 LegoCharts.
 =============
 
-[Demo](http://www.islamzatary.com/projects/legochart/legocharts.html).
+[Live Demo](http://www.islamzatary.com/projects/legochart/legocharts.html).
 
 Dependencies:
 
