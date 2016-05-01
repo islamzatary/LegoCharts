@@ -1,4 +1,7 @@
 LegoCharts.
+=============
+
+[Demo](http://www.islamzatary.com/projects/legochart/legocharts.html).
 
 Dependencies:
 
@@ -6,25 +9,26 @@ Dependencies:
 2. AngularJS.
 3. D3JS.
 4. NVD3.
-5. LegoStyle CSS Framework.
+5. [LegoStyle](http://www.legostyle.com/) CSS Framework.
 
 
-you want to generate chart with very dynamic parameters?
+You want to generate chart with very dynamic parameters?
 
-you care about performance?
+You care about performance?
 
-you want to manage the chart size, colors, order, type, label and others from one place?
+You want to manage the chart size, colors, order, type, label and others from one place?
 
-do you like angularjs framework?
+Do you like angularjs framework?
 
-so you'll love LegoCharts plugin, actually i created this plugin with love in Bayt.com and specialy in BCCs(Branded Career Channel) project to show a very dynamic charts/reports 
+so you'll love LegoCharts plugin, actually i created this plugin with love in Bayt(.)com and specialy in BCCs(Branded Career Channel) project to show a very dynamic charts/reports.
 
-smart solution by doing one directive in switch per charts
+Smart solution by doing one directive to draw all chart types.
 
 
 Chart types:
+----------
 
-1. you can support all charts in NVD3 ro you can write your oun chart by D3JS, and here is NVD3 charts we use:
+1. You can support all charts in NVD3 or you can draw your owr charts by D3JS/Manual, and here is the NVD3 charts we use:
 	1. Area chart (nv.models.lineChart).
 	2. Donut chart (nv.models.pieChart);
 	3. Vertical Barchart (nv.models.discreteBarChart);
@@ -40,8 +44,11 @@ Chart types:
 
 	
 How its work?
+----------
 
 check the below diagram.
+
+[Digrame link](http://www.islamzatary.com/projects/legochart/legocharts_diagram.png)
 
 
 as you see in the above diagram we have a service to fetch the JSON file and the json file contain the chart data structre with data values list after that its parse to one directive contain a switch for all charts type and each chart have a custom function to call if nvd3 will call nvd3 chart type(check Chart type above) and there is four custom charts you can check it in the point #6 below(parameters lists).
@@ -90,7 +97,7 @@ so here is the parameters lists:
 	9. Widget Data (data): Data for drawing will appear in the chart.
 	
 	
-and what about the numeric widget in the above charts as you see in the Demo, this is a cusom type of appear numbers in the top and its depend if you need it but its call in the same service but difeerent json file.
+and what about the numeric widget in the above charts as you see in the [Demo](http://www.islamzatary.com/projects/legochart/legocharts.html), this is a cusom type of appear numbers in the top and its depend if you need it but its call in the same service but difeerent json file.
 
 another amazing feature in the LegoCharts, you can draw chart depend on cusom value/date, if you checked the Demo you can see in te top a dropdown contain a dates so the drawing of charts will depend on change the dropdown date just you want to enable it in the service and parse in the parameter.
 
@@ -98,6 +105,6 @@ Its Easy Peasy.
 
 Please not that this project is part/product of LegoStyle CSS framework, the framework still beta version but LegoChart can use it immediately with all of trust.
 
-LegoStyle support ltr dierction so the chart also support.
+[LegoStyle](http://www.legostyle.com/) support ltr dierction so the chart also support.
 
 Share your opinion with us at iz@legostyle.com
