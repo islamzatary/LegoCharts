@@ -1,0 +1,2055 @@
+[
+  {
+    "global_config": [
+      {
+        "counter": "71",
+        "counter_label": "Talents"
+      }
+    ]
+  },
+  {
+    "widgets": [
+      {
+        "wg_id": "hires",
+        "title": "Hires Over Time",
+        "hint": "",
+        "wg_size": "2",
+        "wg_order": "1",
+        "chart_type": "areachart",
+		"widget_footer": "",
+        "parameters_list": "",
+        "data": [
+          {
+            "param": "",
+            "values": [
+              {
+                "key": "Hires Over Time",
+                "values": [
+                  {
+                    "x": 1434585600000,
+                    "y": 8
+                  },
+                  {
+                    "x": 1434672000000,
+                    "y": 0
+                  },
+                  {
+                    "x": 1434758400000,
+                    "y": 2
+                  },
+                  {
+                    "x": 1434844800000,
+                    "y": 18
+                  },
+                  {
+                    "x": 1434931200000,
+                    "y": 42
+                  },
+                  {
+                    "x": 1435017600000,
+                    "y": 15
+                  },
+                  {
+                    "x": 1435104000000,
+                    "y": 6
+                  },
+                  {
+                    "x": 1435190400000,
+                    "y": 8
+                  },
+                  {
+                    "x": 1435276800000,
+                    "y": 3
+                  },
+                  {
+                    "x": 1435363200000,
+                    "y": 1
+                  },
+                  {
+                    "x": 1435449600000,
+                    "y": 7
+                  },
+                  {
+                    "x": 1435536000000,
+                    "y": 50
+                  },
+                  {
+                    "x": 1435622400000,
+                    "y": 11
+                  },
+                  {
+                    "x": 1435708800000,
+                    "y": 15
+                  },
+                  {
+                    "x": 1435795200000,
+                    "y": 53
+                  },
+                  {
+                    "x": 1435881600000,
+                    "y": 0
+                  },
+                  {
+                    "x": 1435968000000,
+                    "y": 1
+                  },
+                  {
+                    "x": 1436054400000,
+                    "y": 20
+                  },
+                  {
+                    "x": 1436140800000,
+                    "y": 20
+                  },
+                  {
+                    "x": 1436227200000,
+                    "y": 11
+                  },
+                  {
+                    "x": 1436313600000,
+                    "y": 21
+                  },
+                  {
+                    "x": 1436400000000,
+                    "y": 16
+                  },
+                  {
+                    "x": 1436486400000,
+                    "y": 2
+                  },
+                  {
+                    "x": 1436572800000,
+                    "y": 3
+                  },
+                  {
+                    "x": 1436659200000,
+                    "y": 9
+                  },
+                  {
+                    "x": 1436745600000,
+                    "y": 4
+                  },
+                  {
+                    "x": 1436832000000,
+                    "y": 10
+                  },
+                  {
+                    "x": 1436918400000,
+                    "y": 11
+                  },
+                  {
+                    "x": 1437004800000,
+                    "y": 10
+                  },
+                  {
+                    "x": 1437091200000,
+                    "y": 0
+                  },
+                  {
+                    "x": 1437177600000,
+                    "y": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "wg_id": "barchart1",
+        "title": "Bar Chart Demo",
+        "hint": "",
+        "wg_size": "1",
+        "wg_order": "6",
+        "chart_type": "barchart_v",
+		"widget_footer": "",
+        "parameters_list": "",
+        "data": [
+          {
+            "param": "",
+            "values": [
+              {
+                "key": "Bar Chart Demo",
+                "values": [
+                  {
+                    "label": "Item1",
+                    "value": 10
+                  },
+                  {
+                    "label": "Item2",
+                    "value": 20
+                  },
+                  {
+                    "label": "Item3",
+                    "value": 50
+                  },
+                  {
+                    "label": "Item4",
+                    "value": 20
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+	  {
+        "wg_id": "nationality",
+        "title": "Nationality",
+        "hint": "",
+        "wg_size": "1",
+        "wg_order": "7",
+        "chart_type": "donutchart",
+		"widget_footer": "",
+        "parameters_list": "",
+        "data": [
+          {
+            "param_id": "nationality",
+            "param_label": "Nationality",
+            "values": [
+              {
+                "key": "Afghanistan",
+                "y": "14"
+              },
+              {
+                "key": "Jordan",
+                "y": "12"
+              },
+              {
+                "key": "",
+                "y": "7"
+              },
+              {
+                "key": "American Samoa",
+                "y": "6"
+              },
+              {
+                "key": "Albania",
+                "y": "3"
+              },
+              {
+                "key": "Benin",
+                "y": "3"
+              },
+              {
+                "key": "Bahrain",
+                "y": "2"
+              },
+              {
+                "key": "Belize",
+                "y": "2"
+              },
+              {
+                "key": "Angola",
+                "y": "2"
+              },
+              {
+                "key": "Others",
+                "y": "20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "wg_id": "barchart2",
+        "title": "Bar Chart Demo",
+        "hint": "",
+        "wg_size": "1",
+        "wg_order": "7",
+        "chart_type": "barchart_h",
+		"widget_footer": "",
+        "parameters_list": "",
+        "data": [
+          {
+            "param": "",
+            "values": [
+              {
+                "key": "Bar Chart Demo",
+                "values": [
+                  {
+                    "label": "Item1",
+                    "value": 10
+                  },
+                  {
+                    "label": "Item2",
+                    "value": 20
+                  },
+                  {
+                    "label": "Item3",
+                    "value": 50
+                  },
+                  {
+                    "label": "Item4",
+                    "value": 20
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "wg_id": "login_activity",
+        "title": "Login Activity",
+        "hint": "",
+        "wg_size": "1",
+        "wg_order": "5",
+        "chart_type": "linechart",
+		"widget_footer": "",
+        "parameters_list": "",
+        "data": [
+          {
+            "param": "",
+            "values": [
+              {
+                "name": "Admin Rotana",
+                "value": "86"
+              },
+              {
+                "name": "Essmat Tahoun",
+                "value": "22"
+              },
+              {
+                "name": "Iyadorai Sadiz",
+                "value": "17"
+              },
+              {
+                "name": "Rony Mahfoud",
+                "value": "13"
+              },
+              {
+                "name": "Stella Marie  Luna-catungal",
+                "value": "13"
+              },
+              {
+                "name": "Alena Babenko",
+                "value": "12"
+              },
+              {
+                "name": "Fatima Oustouh",
+                "value": "12"
+              },
+              {
+                "name": "Baha Farah",
+                "value": "12"
+              },
+              {
+                "name": "Ashish Prasad",
+                "value": "11"
+              },
+              {
+                "name": "Melissa Suace",
+                "value": "11"
+              },
+              {
+                "name": "Ghaith Dalati",
+                "value": "11"
+              },
+              {
+                "name": "Antoraj Mariasusai",
+                "value": "11"
+              },
+              {
+                "name": "Nithia Dev",
+                "value": "10"
+              },
+              {
+                "name": "Abhishek Kanchan",
+                "value": "9"
+              },
+              {
+                "name": "Johnny Lepoec",
+                "value": "9"
+              },
+              {
+                "name": "Tarek Jarrouje",
+                "value": "9"
+              },
+              {
+                "name": "Hr Leader Amman Rotana",
+                "value": "8"
+              },
+              {
+                "name": "Sally  Samir",
+                "value": "8"
+              },
+              {
+                "name": "Adriana Pavel",
+                "value": "8"
+              },
+              {
+                "name": "Andrei Karpovich",
+                "value": "8"
+              },
+              {
+                "name": "Franz Nuyles",
+                "value": "8"
+              },
+              {
+                "name": "Anushree Rana",
+                "value": "8"
+              },
+              {
+                "name": "Rami Asad",
+                "value": "8"
+              },
+              {
+                "name": "Hisham Alim",
+                "value": "7"
+              },
+              {
+                "name": "Nathalie Coulon",
+                "value": "7"
+              },
+              {
+                "name": "Daniel Leah",
+                "value": "7"
+              },
+              {
+                "name": "Isabell Sigmund",
+                "value": "7"
+              },
+              {
+                "name": "Cristina Ramos",
+                "value": "7"
+              },
+              {
+                "name": "Muhammed Bendichal",
+                "value": "7"
+              },
+              {
+                "name": "Angela Almalvez",
+                "value": "7"
+              },
+              {
+                "name": "Mojahed Al Sofyani",
+                "value": "7"
+              },
+              {
+                "name": "Kristine Diaz",
+                "value": "7"
+              },
+              {
+                "name": "Natalia Maximova",
+                "value": "6"
+              },
+              {
+                "name": "Ina Boneva",
+                "value": "6"
+              },
+              {
+                "name": "Mohamed Ibrahim",
+                "value": "6"
+              },
+              {
+                "name": "Samir Roonwal",
+                "value": "6"
+              },
+              {
+                "name": "Luca Medda",
+                "value": "6"
+              },
+              {
+                "name": "Iv Behri",
+                "value": "6"
+              },
+              {
+                "name": "Venus Santos",
+                "value": "6"
+              },
+              {
+                "name": "Gina Galcescu",
+                "value": "6"
+              },
+              {
+                "name": "Olena Kosmach",
+                "value": "6"
+              },
+              {
+                "name": "George Kozma",
+                "value": "6"
+              },
+              {
+                "name": "Rochelle Jopia",
+                "value": "6"
+              },
+              {
+                "name": "Tapasya Chona",
+                "value": "6"
+              },
+              {
+                "name": "Lizette Duco",
+                "value": "6"
+              },
+              {
+                "name": "Smitha  Nair",
+                "value": "6"
+              },
+              {
+                "name": "Mohamed Eldmasey",
+                "value": "5"
+              },
+              {
+                "name": "Avita Gonsalves",
+                "value": "5"
+              },
+              {
+                "name": "Rasha Rusrus",
+                "value": "5"
+              },
+              {
+                "name": "Ivaylo Kishkov",
+                "value": "5"
+              },
+              {
+                "name": "Sheryl Galinato",
+                "value": "5"
+              },
+              {
+                "name": "Pamela Rizkallah",
+                "value": "5"
+              },
+              {
+                "name": "Hisham Fransawi",
+                "value": "5"
+              },
+              {
+                "name": "Fadi Chalhoub",
+                "value": "5"
+              },
+              {
+                "name": "Gerlie Matias",
+                "value": "5"
+              },
+              {
+                "name": "Eliren Reyes",
+                "value": "5"
+              },
+              {
+                "name": "Jacquelene  Palafox",
+                "value": "5"
+              },
+              {
+                "name": "Mimi Hnamte",
+                "value": "5"
+              },
+              {
+                "name": "Edwin Picardo",
+                "value": "5"
+              },
+              {
+                "name": "Zsoka Halasi",
+                "value": "5"
+              },
+              {
+                "name": "Tarif Malas",
+                "value": "5"
+              },
+              {
+                "name": "Ralph Shehfe",
+                "value": "4"
+              },
+              {
+                "name": "Babu Alamkulath",
+                "value": "4"
+              },
+              {
+                "name": "Mana Uluer",
+                "value": "4"
+              },
+              {
+                "name": "Rawand Al Salem",
+                "value": "4"
+              },
+              {
+                "name": "Ernecita Ramos",
+                "value": "4"
+              },
+              {
+                "name": "April Suico",
+                "value": "4"
+              },
+              {
+                "name": "Oshlana Rodrigues",
+                "value": "4"
+              },
+              {
+                "name": "Saeed Shah",
+                "value": "4"
+              },
+              {
+                "name": "Esther Ezekiel",
+                "value": "4"
+              },
+              {
+                "name": "Steiana  Gomes",
+                "value": "4"
+              },
+              {
+                "name": "Praveen Adiyodi",
+                "value": "4"
+              },
+              {
+                "name": "Nitin Dongre",
+                "value": "4"
+              },
+              {
+                "name": "Rahma Al Harthy",
+                "value": "4"
+              },
+              {
+                "name": "Chirag Malik",
+                "value": "4"
+              },
+              {
+                "name": "Liz Gilleard",
+                "value": "4"
+              },
+              {
+                "name": "Emily Issa",
+                "value": "4"
+              },
+              {
+                "name": "Yousef Hasan",
+                "value": "3"
+              },
+              {
+                "name": "Diana Sutari",
+                "value": "3"
+              },
+              {
+                "name": "Jolletta Hanso",
+                "value": "3"
+              },
+              {
+                "name": "Martina Hauri",
+                "value": "3"
+              },
+              {
+                "name": "Omar Fakhoury",
+                "value": "3"
+              },
+              {
+                "name": "Vanessa Lastimosa",
+                "value": "3"
+              },
+              {
+                "name": "Mais Bitar",
+                "value": "3"
+              },
+              {
+                "name": "Thomas  Marchi",
+                "value": "3"
+              },
+              {
+                "name": "Joannie Gantes",
+                "value": "3"
+              },
+              {
+                "name": "Roula Haddad",
+                "value": "3"
+              },
+              {
+                "name": "Mazen Jardali",
+                "value": "3"
+              },
+              {
+                "name": "Mohamad Zaher",
+                "value": "3"
+              },
+              {
+                "name": "Hani Galal",
+                "value": "3"
+              },
+              {
+                "name": "Marwan Ayesh",
+                "value": "3"
+              },
+              {
+                "name": "Haitham El Sheikh",
+                "value": "3"
+              },
+              {
+                "name": "Sonali Kara",
+                "value": "3"
+              },
+              {
+                "name": "Al Murooj Hr Leader",
+                "value": "3"
+              },
+              {
+                "name": "Derek Soertsz",
+                "value": "3"
+              },
+              {
+                "name": "Irene  Paz",
+                "value": "3"
+              },
+              {
+                "name": "Nadim Jamous",
+                "value": "2"
+              },
+              {
+                "name": "Smitha Diaz",
+                "value": "2"
+              },
+              {
+                "name": "Ressul  Rassallat",
+                "value": "2"
+              },
+              {
+                "name": "Youssouf Taher Banader",
+                "value": "2"
+              },
+              {
+                "name": "Tilman Moeller",
+                "value": "2"
+              },
+              {
+                "name": "Micheline Nohra",
+                "value": "2"
+              },
+              {
+                "name": "Sanjay Nadayil",
+                "value": "2"
+              },
+              {
+                "name": "Sajid Al  Qawasmeh",
+                "value": "2"
+              },
+              {
+                "name": "Dana Dabbas",
+                "value": "2"
+              },
+              {
+                "name": "Fema Banatao",
+                "value": "2"
+              },
+              {
+                "name": "Ali Hdaib",
+                "value": "2"
+              },
+              {
+                "name": "Nader Ismair",
+                "value": "2"
+              },
+              {
+                "name": "Habab Ahmed",
+                "value": "2"
+              },
+              {
+                "name": "Nadim El Zyr",
+                "value": "2"
+              },
+              {
+                "name": "Suresh Kumar",
+                "value": "2"
+              },
+              {
+                "name": "Farhan Khan",
+                "value": "2"
+              },
+              {
+                "name": "Diana King",
+                "value": "2"
+              },
+              {
+                "name": "Naushad Mohamed",
+                "value": "2"
+              },
+              {
+                "name": "Srinivasa Reddy",
+                "value": "2"
+              },
+              {
+                "name": "Mea Morcillas",
+                "value": "2"
+              },
+              {
+                "name": "Wissam Beiruty",
+                "value": "1"
+              },
+              {
+                "name": "Mohamad Nada",
+                "value": "1"
+              },
+              {
+                "name": "Usha Anilkumar",
+                "value": "1"
+              },
+              {
+                "name": "Suresh Babu",
+                "value": "1"
+              },
+              {
+                "name": "Elsa  Brual",
+                "value": "1"
+              },
+              {
+                "name": "Aireen Tampus",
+                "value": "1"
+              },
+              {
+                "name": "Elsy El Rayess",
+                "value": "1"
+              },
+              {
+                "name": "Warren Rego",
+                "value": "1"
+              },
+              {
+                "name": "Ameya Sapre",
+                "value": "1"
+              },
+              {
+                "name": "Ashokan Krishnan",
+                "value": "1"
+              },
+              {
+                "name": "Joyce Lajo",
+                "value": "1"
+              },
+              {
+                "name": "Louay Saegh",
+                "value": "1"
+              },
+              {
+                "name": "Pinky Wang",
+                "value": "1"
+              },
+              {
+                "name": "Dinesh Dehal",
+                "value": "1"
+              },
+              {
+                "name": "Irfan Malik",
+                "value": "1"
+              },
+              {
+                "name": "Amiel Dexter",
+                "value": "1"
+              },
+              {
+                "name": "Bashir Bello",
+                "value": "1"
+              },
+              {
+                "name": "William Moujaes",
+                "value": "1"
+              },
+              {
+                "name": "Rebaz Ibrahim",
+                "value": "1"
+              },
+              {
+                "name": "Marjona Aslitdinova",
+                "value": "1"
+              }
+            ]
+          }
+        ]
+      },
+	  {
+        "wg_id": "requestions",
+        "title": "Requestions",
+        "hint": "",
+        "wg_size": "1",
+        "wg_order": "12",
+        "chart_type": "blockschart",
+		"widget_footer": "",
+        "parameters_list": "",
+        "data": [
+          {
+            "param_id": "all_users",
+            "param_label": "All Users",
+            "values": [
+              {
+                "key": "Requests",
+                "val": "50"
+              },
+              {
+                "key": "Pending Approval",
+                "val": "30"
+              },
+			  {
+                "key": "Approved",
+                "val": "20"
+              },
+			  {
+                "key": "Job Posted",
+                "val": "80"
+              }
+            ]
+          },
+		  {
+            "param_id": "user1",
+            "param_label": "User1",
+            "values": [
+              {
+                "key": "Requests",
+                "val": "70"
+              },
+              {
+                "key": "Pending Approval",
+                "val": "30"
+              },
+			  {
+                "key": "Approved",
+                "val": "10"
+              },
+			  {
+                "key": "Job Posted",
+                "val": "80"
+              }
+            ]
+          },
+		  {
+            "param_id": "user2",
+            "param_label": "User2",
+            "values": [
+              {
+                "key": "Requests",
+                "val": "50"
+              },
+              {
+                "key": "Pending Approval",
+                "val": "30"
+              },
+			  {
+                "key": "Approved",
+                "val": "15"
+              },
+			  {
+                "key": "Job Posted",
+                "val": "65"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "wg_id": "recommended_cvs",
+        "title": "Recommended  CVs",
+        "hint": "Based on Your Last CV Search",
+        "wg_size": "1",
+        "wg_order": "2",
+        "chart_type": "profileslisting",
+		"widget_footer": "",
+        "parameters_list": "",
+        "data": [
+          {
+            "param": "",
+            "description_html": "<b>Search Date:</b> 2015-07-16    ",
+            "visible_count": "4",
+            "values": [
+              {
+                "name": "Manisha Pereira",
+                "title": "Finance Secretary",
+                "value": "Al Ghurair Rayhaan By Rotana",
+                "img": "https://pbs.twimg.com/profile_images/523060485155852288/UtXYfzl1_400x400.jpeg",
+                "link": "http://www.rotanacareers.com /en/cv/?cv_id=35919196&icode=4231500"
+              },
+              {
+                "name": "Paul Onoza",
+                "title": "Administrative Assistant Cum Secretary",
+                "value": "Baguio City Hall",
+                "img": "https://pbs.twimg.com/profile_images/2859627314/ed2c6660945efba20574e33973348866_400x400.jpeg",
+                "link": "http://www.rotanacareers.com/en/cv/?cv_id=35924370&icode=29789760"
+              },
+              {
+                "name": "Nixon Antony",
+                "title": "Admin / Operations Manger",
+                "value": "Umm Studios And Technology Private Ltd",
+                "img": "http://img.b8cdn.com/images/people/no-photo-m-140x140.png",
+                "link": "http://www.rotanacareers.com/en/cv/?cv_id=35775933 &icode=4836000"
+              },
+              {
+                "name": "Lexstanley Simbulan",
+                "title": "Demi Chef De Partie",
+                "value": "Centro Capital  Centre Rotana",
+                "img": "http://img.b8cdn.com/images/uploads/user_photos/50/21625650_20140318054146.jpg",
+                "link": "http://www.rotanacareers.com/en/cv/?cv_id=24383183&icode=15225840"
+              },
+              {
+                "name": "mechelle resurreccion",
+                "title": "Cashier/receptionist/sales Agent",
+                "value": "Maramag Commercial/twins Supermart/dermabest Clinic",
+                "img": "http://img.b8cdn.com/images/people/no-photo-m-140x140.png",
+                "link": "http://www.rotanacareers.com /en/cv/?cv_id=33992948&icode=49649600"
+              },
+              {
+                "name": "Barak Aga",
+                "title": "Senior Manager Accounts",
+                "value": "Universal Commodities Trading (fzc)",
+                "img": "http://img.b8cdn.com/images/people/no-photo-m-140x140.png",
+                "link": "http://www.rotanacareers.com/en/cv/?cv_id=36704752&icode=89115390"
+              },
+              {
+                "name": "Alex Fernandes",
+                "title": "Housekeeping Supervisor",
+                "value": "Villa Rotana",
+                "img": "http://img.b8cdn.com/images/people/no-photo-m-140x140.png",
+                "link": "http://www.rotanacareers.com/en/cv/?cv_id=27194523&icode=22621248"
+              },
+              {
+                "name": "Dharmendra  Yadav",
+                "title": "Senior Steward",
+                "value": "Zygo Club Fine Dining Reastaurant",
+                "img": "http://img.b8cdn.com/images/people/no-photo-m-140x140.png",
+                "link": "http://www.rotanacareers.com/en/cv/?cv_id=36623881 &icode=10451805"
+              },
+              {
+                "name": "Jayshree Vartak",
+                "title": "Guest Service Associate",
+                "value": "The Park Hotel",
+                "img": "http://img.b8cdn.com/images/people/no-photo-m-140x140.png",
+                "link": "http://www.rotanacareers.com /en/cv/?cv_id=34688005&icode=2466360"
+              },
+              {
+                "name": "Akhil Joshi",
+                "title": "Trainee",
+                "value": "Club Mahindra",
+                "img": "http://img.b8cdn.com/images/people/no-photo-m-140x140.png",
+                "link": "http://www.rotanacareers.com /en/cv/?cv_id=36579075&icode=44994950"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "wg_id": "time_to_process",
+        "title": "Time To Process",
+        "hint": "Average time to move folder out of inbox",
+        "wg_size": "1",
+        "wg_order": "3",
+        "chart_type": "timechart",
+		"widget_footer": "",
+        "parameters_list": "",
+        "data": [
+          {
+            "param": "",
+            "values": [
+              {
+                "name": "April Suico",
+                "value": "9848835.65",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Youssouf Taher Banader",
+                "value": "4996663.31",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Tarek Jarrouje",
+                "value": "4341114.68",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Daniel Leah",
+                "value": "4030741.29",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Tarekss Jarrouje",
+                "value": "3672386.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Abhishek Kanchan",
+                "value": "3602908.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Eliren Reyes",
+                "value": "3500386.42",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Rawand Al Salem",
+                "value": "2854588.35",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Mojahed Al Sofyani",
+                "value": "2041460.64",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Nitin Dongre",
+                "value": "2011874.86",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Nelson Fernandes",
+                "value": "1985545.13",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Ivaylo Kishkov",
+                "value": "1901450.85",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Jolletta Hanso",
+                "value": "1887659.62",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Iyadorai Sadiz",
+                "value": "1853466.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Marwan Ayesh",
+                "value": "1839852.4",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Marjona Aslitdinova",
+                "value": "1622065.18",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Bashir Bello",
+                "value": "1574764.22",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Babu Alamkulath",
+                "value": "1477441.71",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Mohamad Nada",
+                "value": "1315368.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Saeed Shah",
+                "value": "1308705.07",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Martina Hauri",
+                "value": "1275732.03",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Christian Tamer",
+                "value": "1263799.83",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Natalia Maximova",
+                "value": "1257639.1",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Diana Sutari",
+                "value": "1225904.94",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Micheline Nohra",
+                "value": "1219632.71",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Smitha Nair",
+                "value": "1181975.69",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Emily Issa",
+                "value": "1125700.73",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Andrei Karpovich",
+                "value": "1108323.25",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Hisham Alim",
+                "value": "1106159.24",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Tilman Moeller",
+                "value": "1095190.8",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Al Murooj HR Leader",
+                "value": "1082164.72",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Hani Galal",
+                "value": "1059267.29",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Srinivasa Reddy",
+                "value": "979069.38",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Mana Uluer",
+                "value": "975465.95",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Nader Ismair",
+                "value": "970809.67",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Olena Kosmach",
+                "value": "954552.29",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Ashokan Krishnan",
+                "value": "883242.69",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Rochelle Jopia",
+                "value": "880786.79",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Carla De Guzman",
+                "value": "852136.06",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Ressul Rassallat",
+                "value": "843725.77",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Luca Medda",
+                "value": "771187.21",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Nathalie Coulon",
+                "value": "770852.18",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Ali Hdaib",
+                "value": "762218.15",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Suresh Kumar",
+                "value": "746278.86",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Joyce Lajo",
+                "value": "741562.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Mimi Hnamte",
+                "value": "736377.75",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Habab Ahmed",
+                "value": "729228.4",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "HR Leader Amman Rotana",
+                "value": "715196.56",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Fadi Chalhoub",
+                "value": "710754.97",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Shane Pahanel",
+                "value": "706654.94",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Irene Paz",
+                "value": "706368.63",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Zsoka Halasi",
+                "value": "690094.77",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Anushree Rana",
+                "value": "676212.89",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Esther Ezekiel",
+                "value": "676208.71",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Steiana Gomes",
+                "value": "646115.43",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Chirag Malik",
+                "value": "634504.84",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Cristina Ramos",
+                "value": "612477.32",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Walid Al Ayash",
+                "value": "598489.5",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Sheryl Galinato",
+                "value": "582670.19",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Roula Haddad",
+                "value": "573048.37",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Rasha Rusrus",
+                "value": "572536.76",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Fatima Oustouh",
+                "value": "559949.04",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Nadim Jamous",
+                "value": "558675.5",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Ashish Prasad",
+                "value": "542454.38",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Johnny Lepoec",
+                "value": "520241.49",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Aireen Tampus",
+                "value": "507817.58",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Jacquelene Palafox",
+                "value": "475866.31",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Haitham El Sheikh",
+                "value": "463848.77",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Hisham Fransawi",
+                "value": "449253.6",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Angela Almalvez",
+                "value": "445497.69",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Joannie Gantes",
+                "value": "439793.7",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Tarif Malas",
+                "value": "416853.44",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Farhan Khan",
+                "value": "416395.78",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Essmat Tahoun",
+                "value": "410393.35",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Avita Gonsalves",
+                "value": "408324.31",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Praveen Adiyodi",
+                "value": "400468.82",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Vanessa Lastimosa",
+                "value": "387722.53",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Omar Fakhoury",
+                "value": "383594.08",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Rami Asad",
+                "value": "381862.9",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Diana King",
+                "value": "372182.96",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Mais Bitar",
+                "value": "371750.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Rebaz Ibrahim",
+                "value": "361616.13",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Naushad Mohamed",
+                "value": "311655.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Liz Gilleard",
+                "value": "298873.25",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Pinky Wang",
+                "value": "295854.94",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Nithia Dev",
+                "value": "292734.99",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Gerlie Matias",
+                "value": "289166.21",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Dinesh Dehal",
+                "value": "288416.5",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Gulnara Safina",
+                "value": "280376.66",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Mohamed Eldmasey",
+                "value": "260096.48",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Sally Samir",
+                "value": "257921.5",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Hisham Boubarakeh",
+                "value": "254952.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Michael Farag",
+                "value": "252401.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Irfan Malik",
+                "value": "251633.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Wissam Beiruty",
+                "value": "250514.2",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Iv Behri",
+                "value": "249535.71",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Pamela Rizkallah",
+                "value": "227218.05",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Mirco Nocchetti",
+                "value": "223202.33",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Tala Kantar",
+                "value": "211442.43",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Yousef Hasan",
+                "value": "206456.91",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Manoj Nair",
+                "value": "172180.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Ina Boneva",
+                "value": "168370.11",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Alena Babenko",
+                "value": "167822.68",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Sajid Al Qawasmeh",
+                "value": "164745.43",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Melissa Suace",
+                "value": "157963.44",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Stella Marie Luna-Catungal",
+                "value": "154042.49",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Amiel  Dexter",
+                "value": "144895.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Venus Santos",
+                "value": "137909.77",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Rahma Al Harthy",
+                "value": "136147.66",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Isabell Sigmund",
+                "value": "136035.5",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Gina Galcescu",
+                "value": "131433.59",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Mea Morcillas",
+                "value": "129367.5",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Mohamed Hosni",
+                "value": "125161.64",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Franz Nuyles",
+                "value": "124333.78",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Ramona Merhej",
+                "value": "117945.65",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Fema Banatao",
+                "value": "111338.7",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Kristine Diaz",
+                "value": "99482.89",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "muhammed bendichal",
+                "value": "98701.02",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "william moujaes",
+                "value": "98580.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Tapasya Chona",
+                "value": "96501.78",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Rony Mahfoud",
+                "value": "76491.47",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Usha Anilkumar",
+                "value": "71118.01",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Dana Dabbas",
+                "value": "67381.81",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Ghaith Dalati",
+                "value": "64778.63",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Mohamad Zaher",
+                "value": "64027.0",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Antoraj Mariasusai",
+                "value": "63993.94",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Adriana Pavel",
+                "value": "62646.21",
+                "no_proccessed_apps": ""
+              },
+              {
+                "name": "Essam Salah El-Din",
+                "value": "1594.0",
+                "no_proccessed_apps": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "wg_id": "talent_breakdown",
+        "title": "Talent Breakdown",
+        "hint": "",
+        "wg_size": "1",
+        "wg_order": "4",
+        "chart_type": "donutchart",
+		"widget_footer": "",
+        "parameters_list": "gender age_group marital_status nationality last_career_level last_edu_level residence_location",
+        "data": [
+          {
+            "param_id": "gender",
+            "param_label": "Candidates by Gender",
+            "values": [
+              {
+                "key": "Male",
+                "y": "20"
+              },
+              {
+                "key": "Female",
+                "y": "80"
+              }
+            ]
+          },
+          {
+            "param_id": "age_group",
+            "param_label": "Candidates by Age Group",
+            "values": [
+              {
+                "key": "25 - 30 years old",
+                "y": "1803"
+              },
+              {
+                "key": "20 - 25 years old",
+                "y": "1110"
+              },
+              {
+                "key": "30 - 35 years old",
+                "y": "1082"
+              },
+              {
+                "key": "35 - 40 years old",
+                "y": "547"
+              },
+              {
+                "key": "40 - 45 years old",
+                "y": "225"
+              },
+              {
+                "key": "Other",
+                "y": "675"
+              }
+            ]
+          },
+          {
+            "param_id": "nationality",
+            "param_label": "Candidates by Nationality",
+            "values": [
+              {
+                "key": "India",
+                "y": "1827"
+              },
+              {
+                "key": "Philippines",
+                "y": "848"
+              },
+              {
+                "key": "Pakistan",
+                "y": "364"
+              },
+              {
+                "key": "Egypt",
+                "y": "238"
+              },
+              {
+                "key": "Jordan",
+                "y": "159"
+              },
+              {
+                "key": "Other",
+                "y": "12879"
+              }
+            ]
+          },
+          {
+            "param_id": "last_career_level",
+            "param_label": "Candidates by Career Level",
+            "values": [
+              {
+                "key": "Mid Career",
+                "y": "2517"
+              },
+              {
+                "key": "Management",
+                "y": "1454"
+              },
+              {
+                "key": "Entry Level",
+                "y": "710"
+              },
+              {
+                "key": "Student/Internship",
+                "y": "164"
+              },
+              {
+                "key": "Executive/Director",
+                "y": "139"
+              },
+              {
+                "key": "Other",
+                "y": "139"
+              }
+            ]
+          },
+          {
+            "param_id": "last_edu_level",
+            "param_label": "Candidates by Education  Level",
+            "values": [
+              {
+                "key": "Bachelor's ",
+                "y": "2281"
+              },
+              {
+                "key": "High school or equivalent",
+                "y": "1153"
+              },
+              {
+                "key": "Master's ",
+                "y": "714"
+              },
+              {
+                "key": "Diploma",
+                "y": "702"
+              },
+              {
+                "key": "Higher diploma",
+                "y": "134"
+              },
+              {
+                "key": "Other",
+                "y": "134"
+              }
+            ]
+          },
+          {
+            "param_id": "residence_location",
+            "param_label": "Candidates by Location",
+            "values": [
+              {
+                "key": "United Arab Emirates",
+                "y": "2476"
+              },
+              {
+                "key": "India",
+                "y": "1014"
+              },
+              {
+                "key": "Bahrain",
+                "y": "327"
+              },
+              {
+                "key": "Qatar",
+                "y": "277"
+              },
+              {
+                "key": "Saudi Arabia",
+                "y": "225"
+              },
+              {
+                "key": "Other",
+                "y": "2475"
+              }
+            ]
+          }
+        ]
+      },
+	  {
+			"wg_id": "education",
+			"title": "Educational Qualification",
+			"hint": "",
+			"wg_size": "2",
+			"wg_order": "8",
+			"chart_type": "barchart_stack",
+			"widget_footer": "",
+			"parameters_list": "",
+			"data": [
+			  {
+				"param": "",
+				"values": [
+				  {
+					"key": "Male",
+					"color": "#7F3F97",
+					"values": [
+					  {
+						"x": "Master degree",
+						"y": 38
+					  },
+					  {
+						"x": "High school or equivalent",
+						"y": 6
+					  },
+					  {
+						"x": "Bachelor's degree",
+						"y": 2
+					  },
+					  {
+						"x": "Professor degree",
+						"y": 4
+					  }
+					]
+				  },
+				  {
+					"key": "Female",
+					"color": "#00ADEE",
+					"values": [
+					  {
+						"x": "Master degree",
+						"y": 19
+					  },
+					  {
+						"x": "High school or equivalent",
+						"y": 8
+					  },
+					  {
+						"x": "Bachelor's degree",
+						"y": 3
+					  },
+					  {
+						"x": "Professor degree",
+						"y": 3
+					  }
+					]
+				  },
+				  {
+					"key": "LegoStyle",
+					"color": "#00D3BC",
+					"values": [
+					  {
+						"x": "Master degree",
+						"y": 5
+					  },
+					  {
+						"x": "High school or equivalent",
+						"y": 2
+					  },
+					  {
+						"x": "Bachelor's degree",
+						"y": 1
+					  },
+					  {
+						"x": "Professor degree",
+						"y": 8
+					  }
+					]
+				  },
+				  {
+					"key": "Google",
+					"color": "#e74c3c",
+					"values": [
+					  {
+						"x": "Master degree",
+						"y": 10
+					  },
+					  {
+						"x": "High school or equivalent",
+						"y": 5
+					  },
+					  {
+						"x": "Bachelor's degree",
+						"y": 4
+					  },
+					  {
+						"x": "Professor degree",
+						"y": 9
+					  }
+					]
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+		  "wg_id": "Analyzer",
+		  "title": "Top CV Analyzer",
+		  "hint": "Hint Message goes here!!",
+		  "wg_size": "3",
+		  "wg_order": "9",
+		  "chart_type": "barchart_group",
+		  "widget_footer": "",
+		  "parameters_list": "",
+		  "data": [
+			{
+			  "param": "",
+			  "values": [
+				{
+				  "key": "Registrations",
+				  "color": "#F8533C",
+				  "values": [
+					{
+					  "x": "Direct Email",
+					  "y": "12"
+					},
+					{
+					  "x": "Friend",
+					  "y": "9"
+					},
+					{
+					  "x": "Social Media",
+					  "y": "6"
+					},
+					{
+					  "x": "Directed by HR Department",
+					  "y": "4"
+					},
+					{
+					  "x": "Other",
+					  "y": "3"
+					}
+				  ]
+				},
+				{
+				  "key": "CV Completions",
+				  "color": "#FFCD10",
+				  "values": [
+					{
+					  "x": "Direct Email",
+					  "y": "5"
+					},
+					{
+					  "x": "Friend",
+					  "y": "4"
+					},
+					{
+					  "x": "Social Media",
+					  "y": "4"
+					},
+					{
+					  "x": "Directed by HR Department",
+					  "y": "2"
+					},
+					{
+					  "x": "Other",
+					  "y": "2"
+					}
+				  ]
+				},
+				{
+				  "key": "Applications",
+				  "color": "#00A5BC",
+				  "values": [
+					{
+					  "x": "Direct Email",
+					  "y": "1"
+					},
+					{
+					  "x": "Friend",
+					  "y": "1"
+					},
+					{
+					  "x": "Social Media",
+					  "y": "3"
+					},
+					{
+					  "x": "Directed by HR Department",
+					  "y": "1"
+					},
+					{
+					  "x": "Other",
+					  "y": "2"
+					}
+				  ]
+				}
+			  ]
+			}
+		  ]
+		}
+    ]
+  }
+]

@@ -1,0 +1,117 @@
+<!--
+* LegoCharts V 1.0
+* Product of LegoStyle - Advanced CSS Framework.
+* Copyright @2015
+* Developed and built by Islam AlZatary - @islamzatary.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="description" content="Employers">
+    <meta name="author" href="https://plus.google.com/+IslamAlZatary" content="Islam AlZatary">
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <title>LegoStyle - Angualrjs Chart Generator</title>
+
+    <!-- Lego core CSS -->
+    <link href="http://www.legostyle.com/css/lego.css" rel="stylesheet" type='text/css' media='all'>
+    <!-- Lego Dashboard CSS -->
+    <link href="css/lego_style_dashboard.css" rel="stylesheet" type='text/css' media='all' />
+	<link href="http://www.legostyle.com/css/lego_phablet.css" rel="stylesheet" type='text/css' media='all' />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.3/nv.d3.min.js"></script>
+	
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body dir="ltr" id="en" onload="" class="">
+<header id="main-header" class="" ng-modules="empHead">
+	<div id="logo" class="grid-p-8 l">
+		<a href="javascript:;" class="menu_tgl clickable phone_show l padding-5"><i class="i-menu_m"></i></a>
+		<a href="/en/myworkspace-e/">
+			<img src="images/lego.png" alt="LegoStyle Framework" class="vert_algn_mid" />
+		</a>
+		Product of LegoStyle
+	</div>
+	<div class="grid-p-2 r hide">
+		<button class="menu2_tgl clickable phone_show r">=</button>
+	</div>
+
+</header>
+<div id="main-wrapper" class="">
+	<div id="content" class="">
+		<div class='dashboard' ng-app="ngdashbaord">
+			<div class="margin_bottom_20 head_date_range overflow-h">
+				<div class="l grid-7">
+					<h1 class="">Angualrjs Chart Generator</h1>
+				</div>
+				<div class="r" style="width:240px;">
+					<div class="bg_white overflow-h" ng-controller="chartUpdate">
+						<h4 class="l margin-reset" style="padding:3px 0;">Date Range</h4>
+						<span class="error" id="err-dateRange"></span>
+						<select name="dateRange" ng-change="update_all_charts()" ng-model="dateRange" ng-options="dr.value as dr.text for dr in dateRangeDate" style='width:130px' class="r" >
+						</select>
+					</div>
+				</div>
+			</div>
+			<!---------- Angualrjs Chart Generator - Start Here ----->
+			<div class="wg_num margin_bottom_20" ng-controller="wgListNumeric" ng-init="WgNumInit()">
+				<ul class="horizontal_list overflow-h">
+					<li class="c" ng-repeat="wgNumList in wgNumLists | orderBy:'wg_order'">
+						<span ng-bind="wgNumList.title"></span><br />
+						<span class="wg_statistic_num" ng-bind="wgNumList.value"></span>
+						<loading></loading>
+						<error></error>
+					</li>
+				</ul>
+			</div>
+			<div class="wg_blocks" ng-controller="WgListMixed" ng-init="WgMixInit()">
+				<div class="dashboard_container">
+					<div ng-repeat="wgMixList in wgMixLists | orderBy:'wg_order'" class="wg_grid_{{wgMixList.wg_size}} l">
+						<div class="widget-box">
+							<div class="widget-header overflow-h">
+								<h2 class="grid-7 l" ng-bind="wgMixList.title"></h2>
+							</div>
+							<div class="widget-body">
+								<p ng-show="wgMixList.hint.length>0" ng-bind="wgMixList.hint"></p>
+								<loading></loading>
+								<error></error>
+								<div chart-type="{{wgMixList.chart_type}}" list-data="{{wgMixList.wg_id}}" id="{{wgMixList.wg_id}}"><svg></svg></div>
+							</div>
+							<div class="widget-footer">
+								<p class="c margin-reset"><a href="javascript:;" class="hide wg_all_{{wgMixList.wg_id}}" ng-click="show_all_data_link(wgMixList.title,wgMixList.wg_id,wgMixList.chart_type)">See All</a></p>
+								<p ng-show="wgMixList.widget_footer.length>0">{{wgMixList.widget_footer}}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!---------- Angualrjs Chart Generator - End Here ----->
+		</div>
+		<script type="text/javascript">
+			var ngdashbaord = angular.module('ngdashbaord', []);
+		</script>
+	</div>
+	<br class="clear" />
+	<footer class='text-r'>
+		<a href="http://www.legostyle.com">
+			Powered by LegoStyle
+		</a>
+	</footer>
+</div>
+	<script src="js/nanobar.js"></script>
+	<script src="js/services.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/directives.js"></script>
+	<script src="js/legocharts_functions.js"></script>
+  </body>
+</html>
