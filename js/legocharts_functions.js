@@ -76,9 +76,9 @@ function chartListData(chartType,datajs,limit,data_v) {
 					}
 					html_data += "	<div class='box_lists block_"+data_v[index1].param_id+" "+blockHide+"'>";
 					$.each(data_v[index1].values, function(index2, dbc) {
-						html_data += "		<div class='l box_item grid-45'>"
-						html_data += "			<h4 class='margin_bottom_10 font-m'>"+dbc.key+"</h4>\
-												<p class='bold blue_customT'>"+dbc.val+"</p>\
+						html_data += "		<div class='l box_item'>"
+						html_data += "			<p class='bold blue_customT margin_bottom_15 font-xxl'>"+dbc.val+"</p>\
+												<h4 class='margin_bottom_10 font-m'>"+dbc.key+"</h4>\
 											</div>";
 						if(limit !="") {
 							return index2<limit;

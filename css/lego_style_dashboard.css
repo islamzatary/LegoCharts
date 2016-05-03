@@ -3800,11 +3800,12 @@ ul.horizontal_list li{
 	overflow:hidden;
 }
 .box_item {
-	border: 1px solid #dadada;
-    margin: 0 2% 15px 0;
-    min-height: 140px;
+	border: 1px solid #ededed;
+    margin: 0 12px 12px 0;
+    min-height: 120px;
+    padding: 8% 0;
     text-align: center;
-	padding: 9% 0;
+    width: 44%;
 }
 /******* End Specific Dashboard *****/
 @media only screen and (max-width:1200px) {
