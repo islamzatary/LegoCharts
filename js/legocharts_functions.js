@@ -202,8 +202,9 @@ function chartListData(chartType,datajs,limit,data_v) {
 							if(entry['default_value']) {
 								 html_data += '<option vlaue=" ">' + entry['default_value'] + '</option>';
 							}
-							$.each(entry['options'][0], function (entryIndex2, entry2) {	
-								var selected = (entry2['id_value'] == entry['value']) ? 'selected' : '';
+							var selected ="";
+							$.each(entry['options'], function (entryIndex2, entry2) {
+								var selected = (entry2['selected'] == "1") ? 'selected' : '';
 								html_data += '<option value="'+entry2['id_value']+'" class="'+entry2['class']+'" '+selected+'>'+entry2['text']+'</option>';
 							});
 							html_data += '</select></p>';

@@ -2107,22 +2107,26 @@
 						{
 							"id_value" : "jo",
 							"text" : "Jordan",
-							"class" : ""
+							"class" : "",
+							"selected":"0"
 						},
 						{
 							"id_value" : "sa",
 							"text" : "Saudi Arabia",
-							"class" : ""
+							"class" : "",
+							"selected":"0"
 						},
 						{
 							"id_value" : "uae",
 							"text" : "United Arab Emirates",
-							"class" : ""
+							"class" : "",
+							"selected":"0"
 						},
 						{
 							"id_value" : "ps",
 							"text" : "Palestine",
-							"class" : ""
+							"class" : "",
+							"selected":"1"
 						}
 					]
 				},
@@ -2143,22 +2147,26 @@
 						{
 							"id_value" : "1-3",
 							"text" : "1-3 Years",
-							"class" : ""
+							"class" : "",
+							"selected":"1"
 						},
 						{
 							"id_value" : "3-5",
 							"text" : "3-5 Years",
-							"class" : ""
+							"class" : "",
+							"selected":"0"
 						},
 						{
 							"id_value" : "5-8",
 							"text" : "8 Years",
-							"class" : ""
+							"class" : "",
+							"selected":"0"
 						},
 						{
 							"id_value" : "above8",
 							"text" : "Above 8 Years",
-							"class" : ""
+							"class" : "",
+							"selected":"0"
 						}
 					]
 				}
