@@ -122,6 +122,14 @@ function chartListData(chartType,datajs,limit,data_v) {
 				}
 			});
 			break;
+		case "tablechart" :
+			var html_data = "";
+			if(datajs.length>0) {
+				
+			} else {
+				html_data += "<p class='c padding-30'>No Data Available</p>";
+			}
+			break;
 		case "profileslisting" :
 			var html_data = "";
 			if(typeof data_v !=="undefined") {
@@ -143,6 +151,44 @@ function chartListData(chartType,datajs,limit,data_v) {
 					return index<limit;
 				}
 			});
+			break;
+		case "form_generator" :
+			var html_data = "";
+			if(datajs.length>0) {
+				html_data += "<form method='"+data_v[0].form_method+"' action='"+data_v[0].form_action+"'>";
+				$.each(datajs, function (entryIndex, entry) {
+					if (entry['label'] != "") {
+						html_data += '<label class="bold">'+entry['label']+'</label>';
+					}
+					if (entry['element_type'] == "input") {
+						if ( entry['ftype'] == "hidden" ) {
+							html_data += '<input type="' + entry['ftype'] + '" name="' + entry['fname'] + '" />';
+						} else {
+							html_data += '<p class="margin_bottom_10"><input type="' + entry['ftype'] + '" name="' + entry['fname'] + '" class="' + entry['class'] + ' ' + entry['req'] + '" placeholder="' + entry['placeholder_txt'] + '" /></p>';
+						}
+					} else if(entry['element_type'] == "textarea") {
+						html_data += '<p class="margin_bottom_10"><textarea name="'+entry['fname']+'" class="'+entry['class']+' '+entry['req']+'" placeholder="'+entry['placeholder_txt']+'"></textarea></p>';
+					} else if(entry['element_type'] == "button") {
+						html_data += '<p class="margin_bottom_10"><button name="'+entry['fname']+'" class="'+entry['class']+'" type="'+entry['ftype']+'">'+entry['value']+'</button></p>';
+					} else if(entry['element_type'] == "select") {
+						html_data += '<p class="margin_bottom_10"><select name="'+entry['fname']+'" class="'+entry['class']+'">';
+						if(entry['default_value']) {
+							 html_data += '<option vlaue=" ">' + entry['default_value'] + '</option>';
+						}
+						$.each(entry['options'][0], function (entryIndex2, entry2) {	
+							var selected = (entry2['id_value'] == entry['value']) ? 'selected' : '';
+							html_data += '<option value="'+entry2['id_value']+'" class="'+entry2['class']+'" '+selected+'>'+entry2['text']+'</option>';
+						});
+						html_data += '</select></p>';
+					} else {
+						html_data += '';
+					}
+				 });
+				html_data += "<button type="+data_v[0].from_button_type+">"+data_v[0].from_button_label+"</button>";
+				html_data += "</form>";
+			} else {
+				html_data += "<p class='c padding-30'>No Data Available</p>";
+			}
 			break;
 		default: break; 
 	}

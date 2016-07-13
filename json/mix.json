@@ -2057,7 +2057,223 @@
 			  ]
 			}
 		  ]
-		}
+		},
+		{
+        "wg_id": "quick_search",
+        "title": "Quick CV Search",
+        "hint": "",
+        "wg_size": "1",
+        "wg_order": "13",
+        "chart_type": "form_generator",
+		"widget_footer": "",
+        "parameters_list": "",
+        "data": [
+          {
+            "param_id": "quickSearchID",
+            "param_label": "",
+			"form_method": "get",
+			"form_action": "/en/",
+			"from_button_type": "submit",
+			"from_button_label": "Search",
+            "values": [
+				{
+					"id" : "keywords",
+					"element_type" : "input",
+					"fname" : "keywords",
+					"ftype" :  "text",
+					"class" : "",
+					"js" : "",
+					"value" : "",
+					"style" : "",
+					"default_value" : "",
+					"placeholder_txt" : "",
+					"label" : "Keywords",
+					"req" : "req"
+				},
+				{
+					"id" : "cv_locations",
+					"element_type" : "select",
+					"fname" : "cv_locations",
+					"ftype" :  "",
+					"class" : "",
+					"js" : "",
+					"value" : "",
+					"style" : "",
+					"default_value" : "Select Location",
+					"placeholder_txt" : "",
+					"label" : "Select Location",
+					"req" : "req",
+					"options": [
+						{
+							"id_value" : "jo",
+							"text" : "Jordan",
+							"class" : ""
+						},
+						{
+							"id_value" : "sa",
+							"text" : "Saudi Arabia",
+							"class" : ""
+						},
+						{
+							"id_value" : "uae",
+							"text" : "United Arab Emirates",
+							"class" : ""
+						},
+						{
+							"id_value" : "ps",
+							"text" : "Palestine",
+							"class" : ""
+						}
+					]
+				},
+				{
+					"id" : "years_experince",
+					"element_type" : "select",
+					"fname" : "years_experince",
+					"ftype" :  "",
+					"class" : "",
+					"js" : "",
+					"value" : "",
+					"style" : "",
+					"default_value" : "Years of Experince",
+					"placeholder_txt" : "",
+					"label" : "Years of Experince",
+					"req" : "req",
+					"options": [
+						{
+							"id_value" : "1-3",
+							"text" : "1-3 Years",
+							"class" : ""
+						},
+						{
+							"id_value" : "3-5",
+							"text" : "3-5 Years",
+							"class" : ""
+						},
+						{
+							"id_value" : "5-8",
+							"text" : "8 Years",
+							"class" : ""
+						},
+						{
+							"id_value" : "above8",
+							"text" : "Above 8 Years",
+							"class" : ""
+						}
+					]
+				}
+			]
+          }
+        ]
+      },
+	  {
+        "wg_id": "quick_search",
+        "title": "Quick CV Search",
+        "hint": "",
+        "wg_size": "1",
+        "wg_order": "13",
+        "chart_type": "form_generator",
+		"widget_footer": "",
+        "parameters_list": "",
+        "data": [
+          {
+            "param_id": "quickSearchID",
+            "param_label": "",
+			"form_method": "get",
+			"form_action": "/en/",
+			"from_button_type": "submit",
+			"from_button_label": "Search",
+            "values": [
+				{
+					"id" : "keywords",
+					"element_type" : "input",
+					"fname" : "keywords",
+					"ftype" :  "text",
+					"class" : "",
+					"js" : "",
+					"value" : "",
+					"style" : "",
+					"default_value" : "",
+					"placeholder_txt" : "",
+					"label" : "Keywords",
+					"req" : "req"
+				},
+				{
+					"id" : "cv_locations",
+					"element_type" : "select",
+					"fname" : "cv_locations",
+					"ftype" :  "",
+					"class" : "",
+					"js" : "",
+					"value" : "",
+					"style" : "",
+					"default_value" : "Select Location",
+					"placeholder_txt" : "",
+					"label" : "Select Location",
+					"req" : "req",
+					"options": [
+						{
+							"id_value" : "jo",
+							"text" : "Jordan",
+							"class" : ""
+						},
+						{
+							"id_value" : "sa",
+							"text" : "Saudi Arabia",
+							"class" : ""
+						},
+						{
+							"id_value" : "uae",
+							"text" : "United Arab Emirates",
+							"class" : ""
+						},
+						{
+							"id_value" : "ps",
+							"text" : "Palestine",
+							"class" : ""
+						}
+					]
+				},
+				{
+					"id" : "years_experince",
+					"element_type" : "select",
+					"fname" : "years_experince",
+					"ftype" :  "",
+					"class" : "",
+					"js" : "",
+					"value" : "",
+					"style" : "",
+					"default_value" : "Years of Experince",
+					"placeholder_txt" : "",
+					"label" : "Years of Experince",
+					"req" : "req",
+					"options": [
+						{
+							"id_value" : "1-3",
+							"text" : "1-3 Years",
+							"class" : ""
+						},
+						{
+							"id_value" : "3-5",
+							"text" : "3-5 Years",
+							"class" : ""
+						},
+						{
+							"id_value" : "5-8",
+							"text" : "8 Years",
+							"class" : ""
+						},
+						{
+							"id_value" : "above8",
+							"text" : "Above 8 Years",
+							"class" : ""
+						}
+					]
+				}
+			]
+          }
+        ]
+      }
     ]
   }
 ]
