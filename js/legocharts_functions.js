@@ -123,12 +123,38 @@ function chartListData(chartType,datajs,limit,data_v) {
 			});
 			break;
 		case "tablechart" :
-			var html_data = "";
-			if(datajs.length>0) {
-				
+			html_data += "	<div class='overflow-h'>";
+			if(datajs.length>0){
+				html_data += "<table class='lego_table'>";
+				html_data += "<tr>";
+				$.each(data_v[0].table_labels, function(index1, db1) {
+					html_data += "<th>"+db1.label+"</th>";
+				});
+				html_data += "</tr>";
+				$.each(datajs, function(index2, db2) {
+					if(index2<limit) {
+						html_data += "<tr>";
+						html_data += "<td>"+db2.param_label+"</td>";
+						$.each(db2.values, function(index3, db3) {
+							html_data += "<td class='c'>"+db3.val+"</td>";
+						});
+						html_data += "<td><a href='"+db2.param_link_url+"'>"+db2.param_link_label+"</a></td>";
+						html_data += "</tr>";
+					}
+				});
+				if(data_v[0].table_msg_all_label !=="") {
+					html_data += "<tfoot>";
+					html_data += "<td colspan='"+(datajs[0].values.length+2)+"'><a href='"+data_v[0].table_msg_all_url+"'>"+data_v[0].table_msg_all_label+"</a></td>";
+					html_data += "</tfoot>";
+				}
+				html_data += "</table>";
+				if(data_v[0].table_new_btn_label !=="") {
+					html_data += "<p><a href='"+data_v[0].table_new_btn_url+"' class='btn large'>"+data_v[0].table_new_btn_label+"</a></td></p>";
+				}
 			} else {
 				html_data += "<p class='c padding-30'>No Data Available</p>";
 			}
+			html_data += "</div>";
 			break;
 		case "profileslisting" :
 			var html_data = "";
@@ -157,31 +183,33 @@ function chartListData(chartType,datajs,limit,data_v) {
 			if(datajs.length>0) {
 				html_data += "<form method='"+data_v[0].form_method+"' action='"+data_v[0].form_action+"'>";
 				$.each(datajs, function (entryIndex, entry) {
-					if (entry['label'] != "") {
-						html_data += '<label class="bold">'+entry['label']+'</label>';
-					}
-					if (entry['element_type'] == "input") {
-						if ( entry['ftype'] == "hidden" ) {
-							html_data += '<input type="' + entry['ftype'] + '" name="' + entry['fname'] + '" />';
+					if(entryIndex<limit){
+						if (entry['label'] != "") {
+							html_data += '<label class="bold">'+entry['label']+'</label>';
+						}
+						if (entry['element_type'] == "input") {
+							if ( entry['ftype'] == "hidden" ) {
+								html_data += '<input type="' + entry['ftype'] + '" name="' + entry['fname'] + '" />';
+							} else {
+								html_data += '<p class="margin_bottom_10"><input type="' + entry['ftype'] + '" name="' + entry['fname'] + '" class="' + entry['class'] + ' ' + entry['req'] + '" placeholder="' + entry['placeholder_txt'] + '" /></p>';
+							}
+						} else if(entry['element_type'] == "textarea") {
+							html_data += '<p class="margin_bottom_10"><textarea name="'+entry['fname']+'" class="'+entry['class']+' '+entry['req']+'" placeholder="'+entry['placeholder_txt']+'"></textarea></p>';
+						} else if(entry['element_type'] == "button") {
+							html_data += '<p class="margin_bottom_10"><button name="'+entry['fname']+'" class="'+entry['class']+'" type="'+entry['ftype']+'">'+entry['value']+'</button></p>';
+						} else if(entry['element_type'] == "select") {
+							html_data += '<p class="margin_bottom_10"><select name="'+entry['fname']+'" class="'+entry['class']+'">';
+							if(entry['default_value']) {
+								 html_data += '<option vlaue=" ">' + entry['default_value'] + '</option>';
+							}
+							$.each(entry['options'][0], function (entryIndex2, entry2) {	
+								var selected = (entry2['id_value'] == entry['value']) ? 'selected' : '';
+								html_data += '<option value="'+entry2['id_value']+'" class="'+entry2['class']+'" '+selected+'>'+entry2['text']+'</option>';
+							});
+							html_data += '</select></p>';
 						} else {
-							html_data += '<p class="margin_bottom_10"><input type="' + entry['ftype'] + '" name="' + entry['fname'] + '" class="' + entry['class'] + ' ' + entry['req'] + '" placeholder="' + entry['placeholder_txt'] + '" /></p>';
+							html_data += '';
 						}
-					} else if(entry['element_type'] == "textarea") {
-						html_data += '<p class="margin_bottom_10"><textarea name="'+entry['fname']+'" class="'+entry['class']+' '+entry['req']+'" placeholder="'+entry['placeholder_txt']+'"></textarea></p>';
-					} else if(entry['element_type'] == "button") {
-						html_data += '<p class="margin_bottom_10"><button name="'+entry['fname']+'" class="'+entry['class']+'" type="'+entry['ftype']+'">'+entry['value']+'</button></p>';
-					} else if(entry['element_type'] == "select") {
-						html_data += '<p class="margin_bottom_10"><select name="'+entry['fname']+'" class="'+entry['class']+'">';
-						if(entry['default_value']) {
-							 html_data += '<option vlaue=" ">' + entry['default_value'] + '</option>';
-						}
-						$.each(entry['options'][0], function (entryIndex2, entry2) {	
-							var selected = (entry2['id_value'] == entry['value']) ? 'selected' : '';
-							html_data += '<option value="'+entry2['id_value']+'" class="'+entry2['class']+'" '+selected+'>'+entry2['text']+'</option>';
-						});
-						html_data += '</select></p>';
-					} else {
-						html_data += '';
 					}
 				 });
 				html_data += "<button type="+data_v[0].from_button_type+">"+data_v[0].from_button_label+"</button>";

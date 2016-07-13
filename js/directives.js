@@ -275,7 +275,15 @@ ngdashbaord.directive('chartType', function($timeout, $compile){
 					}
 					break;
 				case "form_generator" :
-					html_data = chartListData("form_generator",data,10,data_v);
+					html_data = chartListData("form_generator",data,4,data_v);
+					if(data.length > 5) {						
+						$timeout(function() {
+							$(".wg_all_"+attrID).show();
+						}, 0);
+					}
+					break;
+				case "tablechart" :
+					html_data = chartListData("tablechart",data,4,data_v);
 					if(data.length > 5) {						
 						$timeout(function() {
 							$(".wg_all_"+attrID).show();
