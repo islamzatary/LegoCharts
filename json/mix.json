@@ -879,6 +879,14 @@
 			  {
                 "key": "Job Posted",
                 "val": "80"
+              },
+			  {
+                "key": "Job Report",
+                "val": "36"
+              },
+			  {
+                "key": "Requestions",
+                "val": "15"
               }
             ]
           },

@@ -63,6 +63,7 @@ function chartListData(chartType,datajs,limit,data_v) {
 			break;
 		case "blockschart" :
 			html_data += "	<div class='overflow-h'>";
+			var data_list_count = 0;
 			if(data_v.length>0){
 				html_data += "<select class='margin_bottom_15 grid-9' name='BlockChatSelect' ng-model='block_chart' ng-change='block_chart_select(block_chart)'>";
 				$.each(data_v, function(index, dbs) {
@@ -70,6 +71,7 @@ function chartListData(chartType,datajs,limit,data_v) {
 				});
 				html_data += "</select>";
 				$.each(data_v, function(index1, db) {
+					data_list_count += db.values.length;
 					var blockHide = "";
 					if (index1>0) {
 						blockHide = "hide";
@@ -86,6 +88,9 @@ function chartListData(chartType,datajs,limit,data_v) {
 					});					
 					html_data += "</div>"
 				});
+			}
+			if (data_list_count==0) {
+				html_data += "<p class='c padding-30'>No Data Available</p>";
 			}
 			html_data += "</div>";
 			break;
