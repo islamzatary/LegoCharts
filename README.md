@@ -48,7 +48,7 @@ How its work?
 
 check the below diagram.
 
-[Digrame link](http://www.islamzatary.com/projects/legochart/legocharts_diagram.png)
+[Diagram link](http://www.islamzatary.com/projects/legochart/legocharts_diagram.png)
 
 
 as you see in the above diagram we have a service to fetch the JSON file and the json file contain the chart data structre with data values list after that its parse to one directive contain a switch for all charts type and each chart have a custom function to call if nvd3 will call nvd3 chart type(check Chart type above) and there is four custom charts you can check it in the point #6 below(parameters lists).
@@ -92,6 +92,8 @@ so here is the parameters lists:
 		8. blockschart.
 		9. timechart.
 		10. profileslisting.
+		11. tablechart.
+		12. form_generator.
 	7. Widget Footer text (widget_footer): The footer text appear in the footer section.
 	8. Widget Parameters (parameters_list): The Custom parameters list.
 	9. Widget Data (data): Data for drawing will appear in the chart.
