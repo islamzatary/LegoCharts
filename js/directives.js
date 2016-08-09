@@ -290,6 +290,15 @@ ngdashbaord.directive('chartType', function($timeout, $compile){
 						}, 0);
 					}
 					break;
+				case "listdetails" :
+					var profile_list_limit = data_v[0].visible_count-1;
+					html_data = chartListData("listdetails",data,profile_list_limit,data_v);
+					if(data.length>4) {
+						$timeout(function() {
+							$(".wg_all_"+attrID).show();
+						}, 0);
+					}
+					break;
 				default: break;
 			}
 			return chart.html(html_data),$compile(chart.contents())(scope);

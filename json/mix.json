@@ -12,7 +12,8 @@
       {
         "wg_id": "hires",
         "title": "Hires Over Time",
-        "hint": "",
+        "hint": "This chart to know more about blah blah",
+		"wg_tip": "This chart to know more about blah blah",
         "wg_size": "2",
         "wg_order": "1",
         "chart_type": "areachart",
@@ -159,6 +160,7 @@
         "wg_id": "barchart1",
         "title": "Bar Chart Demo",
         "hint": "",
+		"wg_tip": "",
         "wg_size": "1",
         "wg_order": "6",
         "chart_type": "barchart_v",
@@ -197,6 +199,7 @@
         "wg_id": "nationality",
         "title": "Nationality",
         "hint": "",
+		"wg_tip": "",
         "wg_size": "1",
         "wg_order": "7",
         "chart_type": "donutchart",
@@ -255,6 +258,7 @@
         "wg_id": "barchart2",
         "title": "Bar Chart Demo",
         "hint": "",
+		"wg_tip": "",
         "wg_size": "1",
         "wg_order": "7",
         "chart_type": "barchart_h",
@@ -293,6 +297,7 @@
         "wg_id": "login_activity",
         "title": "Login Activity",
         "hint": "",
+		"wg_tip": "",
         "wg_size": "1",
         "wg_order": "5",
         "chart_type": "linechart",
@@ -854,6 +859,7 @@
         "wg_id": "requestions",
         "title": "Requestions",
         "hint": "",
+		"wg_tip": "",
         "wg_size": "1",
         "wg_order": "12",
         "chart_type": "blockschart",
@@ -940,6 +946,7 @@
         "wg_id": "recommended_cvs",
         "title": "Recommended  CVs",
         "hint": "Based on Your Last CV Search",
+		"wg_tip": "",
         "wg_size": "1",
         "wg_order": "2",
         "chart_type": "profileslisting",
@@ -1029,6 +1036,7 @@
         "wg_id": "time_to_process",
         "title": "Time To Process",
         "hint": "Average time to move folder out of inbox",
+		"wg_tip": "",
         "wg_size": "1",
         "wg_order": "3",
         "chart_type": "timechart",
@@ -1686,6 +1694,7 @@
         "wg_id": "talent_breakdown",
         "title": "Talent Breakdown",
         "hint": "",
+		"wg_tip": "",
         "wg_size": "1",
         "wg_order": "4",
         "chart_type": "donutchart",
@@ -1862,6 +1871,7 @@
 			"wg_id": "education",
 			"title": "Educational Qualification",
 			"hint": "",
+			"wg_tip": "",
 			"wg_size": "2",
 			"wg_order": "8",
 			"chart_type": "barchart_stack",
@@ -1967,6 +1977,7 @@
 		  "wg_id": "Analyzer",
 		  "title": "Top CV Analyzer",
 		  "hint": "Hint Message goes here!!",
+		  "wg_tip": "",
 		  "wg_size": "3",
 		  "wg_order": "9",
 		  "chart_type": "barchart_group",
@@ -2062,6 +2073,7 @@
         "wg_id": "quick_search",
         "title": "Quick CV Search",
         "hint": "",
+		"wg_tip": "",
         "wg_size": "1",
         "wg_order": "13",
         "chart_type": "form_generator",
@@ -2178,6 +2190,7 @@
         "wg_id": "job_posting",
         "title": "Job posting",
         "hint": "",
+		"wg_tip": "",
         "wg_size": "2",
         "wg_order": "13",
         "chart_type": "tablechart",
@@ -2244,6 +2257,54 @@
 				]
 			  }
 			]
+          }
+        ]
+      },
+      {
+        "wg_id": "account_details",
+        "title": "Your Account Details",
+        "hint": "",
+		"wg_tip": "Any tips",
+        "wg_size": "1",
+        "wg_order": "15",
+        "chart_type": "listdetails",
+		"widget_footer": "",
+        "parameters_list": "",
+        "data": [
+          {
+            "param": "",
+            "description_html": "",
+            "visible_count": "4",
+            "values": [
+              {
+                "title": "Manisha Pereira 1",
+                "date": "10/3",
+                "desc": "Description goes here!!",
+				"link_txt": "Description goes here!! <a href='adsda' class='red_color'>dasda</a>",
+                "link": "https://www.ebazaarshop.com"
+              },
+              {
+                "title": "Manisha Pereira 2",
+                "date": "10/3",
+                "desc": "Description goes here!!",
+				"link_txt": "Description goes here!!",
+                "link": "https://www.ebazaarshop.com"
+              },
+              {
+                "title": "Manisha Pereira 3",
+                "date": "10/3",
+                "desc": "Description goes here!!",
+				"link_txt": "Description goes here!!",
+                "link": "https://www.ebazaarshop.com"
+              },
+              {
+                "title": "Manisha Pereira 4",
+                "date": "10/3",
+                "desc": "Description goes here!!",
+				"link_txt": "Description goes here!!",
+                "link": "https://www.ebazaarshop.com"
+              }
+            ]
           }
         ]
       }

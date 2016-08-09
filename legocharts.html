@@ -79,7 +79,7 @@
 					<div ng-repeat="wgMixList in wgMixLists | orderBy:'wg_order'" class="wg_grid_{{wgMixList.wg_size}} l">
 						<div class="widget-box">
 							<div class="widget-header overflow-h">
-								<h2 class="grid-7 l" ng-bind="wgMixList.title"></h2>
+								<h2 class="grid-7 l"><span ng-bind="wgMixList.title"></span> <span ng-show="wgMixList.wg_tip.length>0" class="tooltip_down margin-sep" data-tooltip="{{wgMixList.wg_tip}}"><i class="i-help-tip"></i></span></h2>
 							</div>
 							<div class="widget-body">
 								<p ng-show="wgMixList.hint.length>0" ng-bind="wgMixList.hint"></p>
@@ -113,6 +113,10 @@
 	<script src="js/controllers.js"></script>
 	<script src="js/directives.js"></script>
 	<script src="js/legocharts_functions.js"></script>
+	
+	<!-- LegoStyle JS -->
+	<script src="http://www.legostyle.com/js/jquery.mCustomScrollbar.min.js"></script>
+	<script src="http://www.legostyle.com/js/lego.js"></script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];

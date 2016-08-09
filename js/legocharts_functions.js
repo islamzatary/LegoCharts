@@ -219,6 +219,29 @@ function chartListData(chartType,datajs,limit,data_v) {
 				html_data += "<p class='c padding-30'>No Data Available</p>";
 			}
 			break;
+		case "listdetails" :
+			var html_data = "";
+			if(typeof data_v !=="undefined") {
+				html_data += "<p class='font-s margin_bottom_5 overflow-h'>"+data_v[0].description_html+"</p>";
+			}
+			html_data += "";
+			$.each(datajs, function(index, dld) {
+				html_data += "<div class=''>";
+				html_data += "	<div class='overflow-h'>";
+				html_data += "		<h3 class='l grid-8 margin-reset'>"+dld.title+"</h3><p class='l grid-2 margin-reset text-r'>"+dld.date+"</p>";
+				html_data += "	</div>";
+				html_data += "	<div class=''>";
+				html_data += "		<p>"+dld.desc+"</p>";
+				html_data += "	</div>";
+				html_data += "	<div class=''>";
+				html_data += "		<p><a href='"+dld.link+"'>"+dld.link_txt+"</a></p>";
+				html_data += "	</div>";
+				html_data += "</div>";
+				if(limit !="") {
+					return index<limit;
+				}
+			});
+			break;
 		default: break; 
 	}
 	return html_data;
